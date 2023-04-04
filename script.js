@@ -9,7 +9,7 @@
 
 */
 
-let color = document.querySelector('input');
+let color = document.querySelector('#handler-color');
 let penTool = document.querySelector('#handler-pen');
 let eraserTool = document.querySelector('#handler-eraser');
 let clearTool = document.querySelector('#handler-clear');
@@ -17,18 +17,20 @@ let clearTool = document.querySelector('#handler-clear');
 let gridCanvas = document.querySelector('.grid');
 let gridElement = document.querySelector('.grid-element');
 
-penTool.addEventListener('click', function () {
-    console.log(this);
+function resizeCanvas() {
     
-});
+}
 
-eraserTool.addEventListener('click',function () {
-    console.log(this);
+function getColor() {
     
-});
+}
 
-clearTool.addEventListener('click',function () {
-    console.log(this);
-});
+function erase() {
+    
+}
+
+function reset(){
+
+}
 
 
